@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.header-image {
+    height: 72px;
+}
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+.header-son {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content-h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.content-h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;;
+}
+@keyframes spin {
+    from { transform:rotate(0deg); }
+    to { transform: rotate(360deg);}
+}
+.content-h2-img {
+    width: 50px;
+    position: relative;
+    top: 14px;
+    left: 7px;
+    animation: spin 2s infinite;
+}
+.content-button {
+    width: 180px;
+    height: 60px;
+    background-color: #ECD6C4;
+    box-shadow:  4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.content-button:hover {
+    background-image: radial-gradient(circle at top right, #fdb35ebd, rgba(253, 115, 246, 0.616), #e52e71);
+}
+.content-img {
+    height: 430px;
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.content-2-h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.content-p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+}
+.final-page {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.final-page-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
